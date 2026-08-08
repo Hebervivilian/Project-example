@@ -1,0 +1,81 @@
+*{ 
+    user-select: none;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.stickybar{
+    height: 69px;
+    width: 100%;
+    background-color: rgb(212, 251, 212);
+    position: sticky;
+    top: 0;
+}
+.stickybar ul li{
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    padding: 16px;
+    padding-left: 64px;
+}
+.stickybar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;   
+}
+.stickybar ul li button{
+    background-color: rgb(47, 255, 95);
+    height: 50px;
+    width: 150px;
+    border-radius:20px ;
+}
+.stickybar ul li button:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.stickybar ul li u{
+    color:  rgb(212, 251, 212);
+}
+.stickybar ul li u:hover{
+    color: rgb(55, 255, 0);
+    transition: 1s;
+}    
+.downloadlink{
+    width: 200vh;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+        
+}
+.downloadlink .box{
+    margin-top: 310px;
+    width: 250px;
+    height: 360px;
+    background-color: black;
+    color: white;
+    border-radius: 26px;
+}
+.downloadlink .box h1{
+    text-align: center;
+}
+.downloadlink .box button{
+    border-radius: 9px;
+    height: 70px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    color: white;
+    border-color: white;
+}
+.downloadlink .box button:hover{
+    background-color: rgb(0, 7, 1);
+    transition: 1s;
+}
+.downloadlink .box:hover{
+    background-color:rgb(47, 255, 95) ;
+}
+.downloadlink .box p{
+    text-align: center;
+    font-size: smaller;
+}

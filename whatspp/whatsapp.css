@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.stickybar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(248, 237, 222);
+    position: sticky;
+    top: 0;
+}
+.stickybar ul li{
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    padding: 19px;
+    padding-left: 79px;
+}
+.stickybar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;   
+}
+.stickybar ul li button{
+    background-color: rgb(47, 255, 95);
+    height: 50px;
+    width: 150px;
+    border-radius:20px ;
+}
+.stickybar ul li button:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.stickybar ul li u{
+    color:  rgb(212, 251, 212);
+}
+.stickybar ul li u:hover{
+    color: rgb(55, 255, 0);
+    transition: 1s;
+}    
+.downbtn button{
+    background-color: rgb(47, 255, 95);
+    height: 50px;
+    width: 150px;
+    border-radius:20px ;
+    margin-left: 245px;
+}
+.img1{
+    margin-left: 90px;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+.letter1 h1{
+    font-size: 69px;
+    color: white;
+    margin-top: -500px;
+    margin-left: 245px;
+}
+.letter1 .letter2{
+    color: white;
+    margin-top: -19px;
+    margin-left: 245px;
+}
+.downbtn button:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.img2{
+    margin-left: 860px;
+    margin-top: -450px;
+    width: 100vw;
+}
+.img2 img{
+    width: 477px;
+}
+.img3{
+    margin-left: 860px;
+    width: 100vw;
+}
+.img3 img{
+    width: 477px;
+}
+.img4{
+    margin-left: 860px;
+    width: 100vw;
+}
+.img4 img{
+    width: 477px;
+}
+.img5{
+    margin-left: 860px;
+    width: 100vw;
+}
+.img5 img{
+    width: 477px;
+}
+.img6{
+    margin-left: 860px;
+    width: 100vw;
+}
+.img6 img{
+    width: 477px;
+}
+.img7{
+    margin: 0;
+    padding: 0;
+    width: 88vw;
+}
+.img7 img{
+    width:100%;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.letter3{
+    margin-top: 50px;
+    margin-left: 343px;
+}
+.letter3 h1{
+    font-size: 44px;
+}
+.img8{
+    margin: 0;
+    padding: 0;
+    width: 88vw;
+}
+.img8 img{
+    width:100%;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.letter4 h1{
+    font-size:54px ;
+    margin-left: 269px;
+    margin-top: 244px;
+}
+.img9{
+    width: 100vw;
+    margin-left: 869px;
+    margin-top: -520px;
+}
+.letter4 p{
+    margin-left: 269px;
+}
+.letter4 .let1{
+    margin-left: 269px;
+    text-decoration: none;
+    color: black;
+}
+.letter4 u:hover{
+    color: rgb(47, 255, 95);
+}
+.black{
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+}
+.img10 img{
+    margin-top: 81px;
+    margin-left: 230px;
+}
+.letter5{
+    color: white;
+}
+.letter5 h1{
+    font-size: 54px;
+    margin-left: 869px;
+    margin-top: -520px;
+}
+.letter5 p{
+       margin-left: 869px;
+}
+.letter5 .let1{
+    margin-left: 869px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.letter5 .let1:hover{
+    color: rgb(47, 255, 95);
+}
+.letter6 h1{
+    margin-top: 634px;
+    font-size: 54px;
+    margin-left: 269px;
+}
+.img11{
+    margin-left: 869px;
+    margin-top: -420px;
+}
+.img11one{
+    margin-left: 834px;
+    margin-top: -568px;
+    width: 100vw;
+}
+.img11one img{
+    width: 390px;   
+}
+.letter6 p{
+    margin-left: 269px;
+}
+.letter6 .let1{
+    margin-left: 269px;
+    text-decoration: none;
+    color: black;
+}
+.letter6 .let1:hover{
+    color: rgb(47, 255, 95);
+}
+.img12{
+    margin-top: 240px;
+    margin-left: 230px;
+}
+.img12one{
+    width: 100px;
+    margin-top: -500px;
+    margin-left: 230px;
+}
+.img12one img{
+    width: 340px;
+}
+.letter7 h1{
+    font-size: 54px;
+    margin-left: 869px;
+    margin-top: -300px;
+}
+.letter7 p{
+    margin-left: 869px;
+}
+.letter7 .let1{
+    margin-left: 869px;
+    text-decoration: none;
+    color: black;
+}
+.letter7 .let1:hover{
+    color: rgb(47, 255, 95);
+}
+.letter8 h1{
+    margin-top: 500px;
+    font-size: 54px;
+    margin-left: 269px;
+}
+.letter8 p{
+    margin-left: 269px;
+}
+.letter8 .let1{
+    margin-left: 269px;
+    text-decoration: none;
+    color: black;
+}
+.letter8 .let1:hover{
+     color: rgb(47, 255, 95);
+}
+.img13{
+    margin-left: 869px;
+    margin-top: -420px;
+}
+.lasttwobox{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(212, 251, 212);
+}
+.ss{
+    background: #000;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.letter9{
+    margin-top: -900px;
+    font-size: 27px;
+    margin-left: 300px;
+}
+.lastimg{
+    margin-left: 787px;
+    width: 100vw;
+    margin-top: -1px;
+}
+.lastimg img{
+    width: 512px;
+    border-radius: 20px;
+}
+.table{
+    color: white;
+
+}
+.foot{
+    margin-left: -90px;}
+
+.foot h1{
+    margin-top: 70px;
+   margin-left: 330px;
+   color: white;
+   line-height: 60px;
+}
+
+.foot button{
+    width:150px;
+    height: 50px;
+    border-radius: 40px 40px 40px 40px;
+    background: rgb(47, 255, 95);
+    margin-left: 300px;
+    margin-top: 90px;
+
+}
+.foot .one li{
+    color: white;
+    margin-left: 600px;
+   
+    gap: 10px;
+    list-style: none;
+    
+}
+.foot .one{
+    line-height: 40px;
+    margin-top: -170px;
+    
+}
+.foot .two{
+    line-height: 40px;
+    margin-top: -200px;
+    
+}
+.foot .two li{
+    color: white;
+    margin-left: 800px;
+   
+    gap: 10px;
+    list-style: none;
+    
+}
+.foot .the{
+    line-height: 40px;
+    margin-top: -200px;
+    
+}
+.foot .the li{
+    color: white;
+    margin-left: 1000px;
+   
+    gap: 10px;
+    list-style: none;
+    
+}
+.foot .thee{
+    line-height: 40px;
+    margin-top: -200px;
+    
+}
+.foot .thee li{
+    color: white;
+    margin-left: 1200px;
+   
+    gap: 10px;
+    list-style: none;
+    
+}
